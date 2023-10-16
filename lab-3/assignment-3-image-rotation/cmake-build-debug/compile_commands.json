@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/tmp/assignment-3-image-rotation/cmake-build-debug",
+  "command": "/usr/bin/clang -I/tmp/assignment-3-image-rotation/solution/src -I/tmp/assignment-3-image-rotation/solution/include -std=c17 -pedantic -Wall -Werror -ggdb -g -o solution/CMakeFiles/image-transformer.dir/src/bmp.c.o -c /tmp/assignment-3-image-rotation/solution/src/bmp.c",
+  "file": "/tmp/assignment-3-image-rotation/solution/src/bmp.c"
+},
+{
+  "directory": "/tmp/assignment-3-image-rotation/cmake-build-debug",
+  "command": "/usr/bin/clang -I/tmp/assignment-3-image-rotation/solution/src -I/tmp/assignment-3-image-rotation/solution/include -std=c17 -pedantic -Wall -Werror -ggdb -g -o solution/CMakeFiles/image-transformer.dir/src/bmp_utils.c.o -c /tmp/assignment-3-image-rotation/solution/src/bmp_utils.c",
+  "file": "/tmp/assignment-3-image-rotation/solution/src/bmp_utils.c"
+},
+{
+  "directory": "/tmp/assignment-3-image-rotation/cmake-build-debug",
+  "command": "/usr/bin/clang -I/tmp/assignment-3-image-rotation/solution/src -I/tmp/assignment-3-image-rotation/solution/include -std=c17 -pedantic -Wall -Werror -ggdb -g -o solution/CMakeFiles/image-transformer.dir/src/file_utils.c.o -c /tmp/assignment-3-image-rotation/solution/src/file_utils.c",
+  "file": "/tmp/assignment-3-image-rotation/solution/src/file_utils.c"
+},
+{
+  "directory": "/tmp/assignment-3-image-rotation/cmake-build-debug",
+  "command": "/usr/bin/clang -I/tmp/assignment-3-image-rotation/solution/src -I/tmp/assignment-3-image-rotation/solution/include -std=c17 -pedantic -Wall -Werror -ggdb -g -o solution/CMakeFiles/image-transformer.dir/src/image.c.o -c /tmp/assignment-3-image-rotation/solution/src/image.c",
+  "file": "/tmp/assignment-3-image-rotation/solution/src/image.c"
+},
+{
+  "directory": "/tmp/assignment-3-image-rotation/cmake-build-debug",
+  "command": "/usr/bin/clang -I/tmp/assignment-3-image-rotation/solution/src -I/tmp/assignment-3-image-rotation/solution/include -std=c17 -pedantic -Wall -Werror -ggdb -g -o solution/CMakeFiles/image-transformer.dir/src/main.c.o -c /tmp/assignment-3-image-rotation/solution/src/main.c",
+  "file": "/tmp/assignment-3-image-rotation/solution/src/main.c"
+},
+{
+  "directory": "/tmp/assignment-3-image-rotation/cmake-build-debug",
+  "command": "/usr/bin/clang -I/tmp/assignment-3-image-rotation/solution/src -I/tmp/assignment-3-image-rotation/solution/include -std=c17 -pedantic -Wall -Werror -ggdb -g -o solution/CMakeFiles/image-transformer.dir/src/transformations.c.o -c /tmp/assignment-3-image-rotation/solution/src/transformations.c",
+  "file": "/tmp/assignment-3-image-rotation/solution/src/transformations.c"
+},
+{
+  "directory": "/tmp/assignment-3-image-rotation/cmake-build-debug",
+  "command": "/usr/bin/clang -I/tmp/assignment-3-image-rotation/solution/src -I/tmp/assignment-3-image-rotation/solution/include -std=c17 -pedantic -Wall -Werror -ggdb -g -o solution/CMakeFiles/image-transformer.dir/src/util.c.o -c /tmp/assignment-3-image-rotation/solution/src/util.c",
+  "file": "/tmp/assignment-3-image-rotation/solution/src/util.c"
+},
+{
+  "directory": "/tmp/assignment-3-image-rotation/cmake-build-debug",
+  "command": "/usr/bin/clang -I/tmp/assignment-3-image-rotation/tester/src -I/tmp/assignment-3-image-rotation/tester/include -std=c17 -pedantic -Wall -Werror -ggdb -g -o tester/CMakeFiles/image-matcher.dir/src/bmp.c.o -c /tmp/assignment-3-image-rotation/tester/src/bmp.c",
+  "file": "/tmp/assignment-3-image-rotation/tester/src/bmp.c"
+},
+{
+  "directory": "/tmp/assignment-3-image-rotation/cmake-build-debug",
+  "command": "/usr/bin/clang -I/tmp/assignment-3-image-rotation/tester/src -I/tmp/assignment-3-image-rotation/tester/include -std=c17 -pedantic -Wall -Werror -ggdb -g -o tester/CMakeFiles/image-matcher.dir/src/file_cmp.c.o -c /tmp/assignment-3-image-rotation/tester/src/file_cmp.c",
+  "file": "/tmp/assignment-3-image-rotation/tester/src/file_cmp.c"
+},
+{
+  "directory": "/tmp/assignment-3-image-rotation/cmake-build-debug",
+  "command": "/usr/bin/clang -I/tmp/assignment-3-image-rotation/tester/src -I/tmp/assignment-3-image-rotation/tester/include -std=c17 -pedantic -Wall -Werror -ggdb -g -o tester/CMakeFiles/image-matcher.dir/src/main.c.o -c /tmp/assignment-3-image-rotation/tester/src/main.c",
+  "file": "/tmp/assignment-3-image-rotation/tester/src/main.c"
+},
+{
+  "directory": "/tmp/assignment-3-image-rotation/cmake-build-debug",
+  "command": "/usr/bin/clang -I/tmp/assignment-3-image-rotation/tester/src -I/tmp/assignment-3-image-rotation/tester/include -std=c17 -pedantic -Wall -Werror -ggdb -g -o tester/CMakeFiles/image-matcher.dir/src/util.c.o -c /tmp/assignment-3-image-rotation/tester/src/util.c",
+  "file": "/tmp/assignment-3-image-rotation/tester/src/util.c"
+}
+]

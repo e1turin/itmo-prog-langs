@@ -1,0 +1,99 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "test__free::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "test_alloc_region::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "test_custom_tests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "test_find_good_or_last::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "test_grow_heap::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "test_heap_init::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "test_memalloc::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "test_split_if_too_big::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "test_try_memalloc_existing::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "test_try_merge_with_next::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "check::@6890427a1f51a3e7e1df",
+	"name" : "check",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "out/build/msan/CMakeFiles/check",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "out/build/msan/CMakeFiles/check.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

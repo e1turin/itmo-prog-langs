@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/tmp/assignment-4-memory-allocator/cmake-build-debug",
+  "command": "/usr/bin/clang -DDEBUG -I/tmp/assignment-4-memory-allocator/src/. -std=c17 -ggdb -g -Wall -Werror -Wno-unused -ggdb -o src/CMakeFiles/memalloc.dir/mem.c.o -c /tmp/assignment-4-memory-allocator/src/mem.c",
+  "file": "/tmp/assignment-4-memory-allocator/src/mem.c"
+},
+{
+  "directory": "/tmp/assignment-4-memory-allocator/cmake-build-debug",
+  "command": "/usr/bin/clang -DDEBUG -I/tmp/assignment-4-memory-allocator/src/. -std=c17 -ggdb -g -Wall -Werror -Wno-unused -ggdb -o src/CMakeFiles/memalloc.dir/mem_debug.c.o -c /tmp/assignment-4-memory-allocator/src/mem_debug.c",
+  "file": "/tmp/assignment-4-memory-allocator/src/mem_debug.c"
+},
+{
+  "directory": "/tmp/assignment-4-memory-allocator/cmake-build-debug",
+  "command": "/usr/bin/clang -DDEBUG -I/tmp/assignment-4-memory-allocator/src/. -std=c17 -ggdb -g -Wall -Werror -Wno-unused -ggdb -o src/CMakeFiles/memalloc.dir/util.c.o -c /tmp/assignment-4-memory-allocator/src/util.c",
+  "file": "/tmp/assignment-4-memory-allocator/src/util.c"
+},
+{
+  "directory": "/tmp/assignment-4-memory-allocator/cmake-build-debug",
+  "command": "/usr/bin/clang -DDEBUG -I/tmp/assignment-4-memory-allocator/tester/src -I/tmp/assignment-4-memory-allocator/src/. -std=c17 -ggdb -g -o tester/CMakeFiles/test_stubs.dir/src/test_utils.c.o -c /tmp/assignment-4-memory-allocator/tester/src/test_utils.c",
+  "file": "/tmp/assignment-4-memory-allocator/tester/src/test_utils.c"
+},
+{
+  "directory": "/tmp/assignment-4-memory-allocator/cmake-build-debug",
+  "command": "/usr/bin/clang -DDEBUG -I/tmp/assignment-4-memory-allocator/tester/src -I/tmp/assignment-4-memory-allocator/src/. -std=c17 -ggdb -g -o tester/CMakeFiles/test__free.dir/tests/_free.c.o -c /tmp/assignment-4-memory-allocator/tester/tests/_free.c",
+  "file": "/tmp/assignment-4-memory-allocator/tester/tests/_free.c"
+},
+{
+  "directory": "/tmp/assignment-4-memory-allocator/cmake-build-debug",
+  "command": "/usr/bin/clang -DDEBUG -I/tmp/assignment-4-memory-allocator/tester/src -I/tmp/assignment-4-memory-allocator/src/. -std=c17 -ggdb -g -o tester/CMakeFiles/test_alloc_region.dir/tests/alloc_region.c.o -c /tmp/assignment-4-memory-allocator/tester/tests/alloc_region.c",
+  "file": "/tmp/assignment-4-memory-allocator/tester/tests/alloc_region.c"
+},
+{
+  "directory": "/tmp/assignment-4-memory-allocator/cmake-build-debug",
+  "command": "/usr/bin/clang -DDEBUG -I/tmp/assignment-4-memory-allocator/tester/src -I/tmp/assignment-4-memory-allocator/src/. -std=c17 -ggdb -g -o tester/CMakeFiles/test_custom_tests.dir/tests/custom_tests.c.o -c /tmp/assignment-4-memory-allocator/tester/tests/custom_tests.c",
+  "file": "/tmp/assignment-4-memory-allocator/tester/tests/custom_tests.c"
+},
+{
+  "directory": "/tmp/assignment-4-memory-allocator/cmake-build-debug",
+  "command": "/usr/bin/clang -DDEBUG -I/tmp/assignment-4-memory-allocator/tester/src -I/tmp/assignment-4-memory-allocator/src/. -std=c17 -ggdb -g -o tester/CMakeFiles/test_find_good_or_last.dir/tests/find_good_or_last.c.o -c /tmp/assignment-4-memory-allocator/tester/tests/find_good_or_last.c",
+  "file": "/tmp/assignment-4-memory-allocator/tester/tests/find_good_or_last.c"
+},
+{
+  "directory": "/tmp/assignment-4-memory-allocator/cmake-build-debug",
+  "command": "/usr/bin/clang -DDEBUG -I/tmp/assignment-4-memory-allocator/tester/src -I/tmp/assignment-4-memory-allocator/src/. -std=c17 -ggdb -g -o tester/CMakeFiles/test_grow_heap.dir/tests/grow_heap.c.o -c /tmp/assignment-4-memory-allocator/tester/tests/grow_heap.c",
+  "file": "/tmp/assignment-4-memory-allocator/tester/tests/grow_heap.c"
+},
+{
+  "directory": "/tmp/assignment-4-memory-allocator/cmake-build-debug",
+  "command": "/usr/bin/clang -DDEBUG -I/tmp/assignment-4-memory-allocator/tester/src -I/tmp/assignment-4-memory-allocator/src/. -std=c17 -ggdb -g -o tester/CMakeFiles/test_heap_init.dir/tests/heap_init.c.o -c /tmp/assignment-4-memory-allocator/tester/tests/heap_init.c",
+  "file": "/tmp/assignment-4-memory-allocator/tester/tests/heap_init.c"
+},
+{
+  "directory": "/tmp/assignment-4-memory-allocator/cmake-build-debug",
+  "command": "/usr/bin/clang -DDEBUG -I/tmp/assignment-4-memory-allocator/tester/src -I/tmp/assignment-4-memory-allocator/src/. -std=c17 -ggdb -g -o tester/CMakeFiles/test_memalloc.dir/tests/memalloc.c.o -c /tmp/assignment-4-memory-allocator/tester/tests/memalloc.c",
+  "file": "/tmp/assignment-4-memory-allocator/tester/tests/memalloc.c"
+},
+{
+  "directory": "/tmp/assignment-4-memory-allocator/cmake-build-debug",
+  "command": "/usr/bin/clang -DDEBUG -I/tmp/assignment-4-memory-allocator/tester/src -I/tmp/assignment-4-memory-allocator/src/. -std=c17 -ggdb -g -o tester/CMakeFiles/test_split_if_too_big.dir/tests/split_if_too_big.c.o -c /tmp/assignment-4-memory-allocator/tester/tests/split_if_too_big.c",
+  "file": "/tmp/assignment-4-memory-allocator/tester/tests/split_if_too_big.c"
+},
+{
+  "directory": "/tmp/assignment-4-memory-allocator/cmake-build-debug",
+  "command": "/usr/bin/clang -DDEBUG -I/tmp/assignment-4-memory-allocator/tester/src -I/tmp/assignment-4-memory-allocator/src/. -std=c17 -ggdb -g -o tester/CMakeFiles/test_try_memalloc_existing.dir/tests/try_memalloc_existing.c.o -c /tmp/assignment-4-memory-allocator/tester/tests/try_memalloc_existing.c",
+  "file": "/tmp/assignment-4-memory-allocator/tester/tests/try_memalloc_existing.c"
+},
+{
+  "directory": "/tmp/assignment-4-memory-allocator/cmake-build-debug",
+  "command": "/usr/bin/clang -DDEBUG -I/tmp/assignment-4-memory-allocator/tester/src -I/tmp/assignment-4-memory-allocator/src/. -std=c17 -ggdb -g -o tester/CMakeFiles/test_try_merge_with_next.dir/tests/try_merge_with_next.c.o -c /tmp/assignment-4-memory-allocator/tester/tests/try_merge_with_next.c",
+  "file": "/tmp/assignment-4-memory-allocator/tester/tests/try_merge_with_next.c"
+}
+]

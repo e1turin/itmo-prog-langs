@@ -1,0 +1,48 @@
+Start testing: Jan 19 20:10 UTC
+----------------------------------------------------------
+1/3 Testing: test-1
+1/3 Test: test-1
+Command: "/usr/bin/cmake" "-DTEST_DIR=/tmp/assignment-3-image-rotation/tester/tests/1" "-DIMAGE_TRANSFORMER=/tmp/assignment-3-image-rotation/cmake-build-debug/solution/image-transformer" "-DIMAGE_MATCHER=/tmp/assignment-3-image-rotation/cmake-build-debug/tester/image-matcher" "-P" "/tmp/assignment-3-image-rotation/tester/tester.cmake"
+Directory: /tmp/assignment-3-image-rotation/cmake-build-debug/tester
+"test-1" start time: Jan 19 20:10 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.74 sec
+----------------------------------------------------------
+Test Passed.
+"test-1" end time: Jan 19 20:10 UTC
+"test-1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: test-2
+2/3 Test: test-2
+Command: "/usr/bin/cmake" "-DTEST_DIR=/tmp/assignment-3-image-rotation/tester/tests/2" "-DIMAGE_TRANSFORMER=/tmp/assignment-3-image-rotation/cmake-build-debug/solution/image-transformer" "-DIMAGE_MATCHER=/tmp/assignment-3-image-rotation/cmake-build-debug/tester/image-matcher" "-P" "/tmp/assignment-3-image-rotation/tester/tester.cmake"
+Directory: /tmp/assignment-3-image-rotation/cmake-build-debug/tester
+"test-2" start time: Jan 19 20:10 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.68 sec
+----------------------------------------------------------
+Test Passed.
+"test-2" end time: Jan 19 20:10 UTC
+"test-2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: test-3
+3/3 Test: test-3
+Command: "/usr/bin/cmake" "-DTEST_DIR=/tmp/assignment-3-image-rotation/tester/tests/3" "-DIMAGE_TRANSFORMER=/tmp/assignment-3-image-rotation/cmake-build-debug/solution/image-transformer" "-DIMAGE_MATCHER=/tmp/assignment-3-image-rotation/cmake-build-debug/tester/image-matcher" "-P" "/tmp/assignment-3-image-rotation/tester/tester.cmake"
+Directory: /tmp/assignment-3-image-rotation/cmake-build-debug/tester
+"test-3" start time: Jan 19 20:10 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test-3" end time: Jan 19 20:10 UTC
+"test-3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 19 20:10 UTC

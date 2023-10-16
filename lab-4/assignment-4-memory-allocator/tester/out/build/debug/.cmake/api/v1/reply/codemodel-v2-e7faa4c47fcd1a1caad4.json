@@ -1,0 +1,155 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "check::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check-Debug-737d5ae12b96a9e0805f.json",
+					"name" : "check",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test__free::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test__free-Debug-7acda9fde67e8c260657.json",
+					"name" : "test__free",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_alloc_region::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_alloc_region-Debug-b6cb4bb2e8d5e3c844c3.json",
+					"name" : "test_alloc_region",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_custom_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_custom_tests-Debug-4b309fcf8d11963e2af5.json",
+					"name" : "test_custom_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_find_good_or_last::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_find_good_or_last-Debug-c181b6eb79750ddc5d5b.json",
+					"name" : "test_find_good_or_last",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_grow_heap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_grow_heap-Debug-c7c2052589995ec26669.json",
+					"name" : "test_grow_heap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_heap_init::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_heap_init-Debug-7e7292027112dccf2b41.json",
+					"name" : "test_heap_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_memalloc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_memalloc-Debug-9e49b566db13d9207afd.json",
+					"name" : "test_memalloc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_split_if_too_big::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_split_if_too_big-Debug-a187df7388a901f28616.json",
+					"name" : "test_split_if_too_big",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_stubs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_stubs-Debug-8b6854d346aa5c55d551.json",
+					"name" : "test_stubs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_try_memalloc_existing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_try_memalloc_existing-Debug-ab021f6dcab8393afb4b.json",
+					"name" : "test_try_memalloc_existing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_try_merge_with_next::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_try_merge_with_next-Debug-7ecf618d8444d108d3c7.json",
+					"name" : "test_try_merge_with_next",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/tmp/tester/out/build/debug",
+		"source" : "/tmp/tester"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

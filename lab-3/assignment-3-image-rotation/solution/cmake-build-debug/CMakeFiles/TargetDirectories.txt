@@ -1,0 +1,3 @@
+D:/Projects/itmo-prog-langs/lab-3/assignment-3-image-rotation/solution/cmake-build-debug/CMakeFiles/image-transformer.dir
+D:/Projects/itmo-prog-langs/lab-3/assignment-3-image-rotation/solution/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Projects/itmo-prog-langs/lab-3/assignment-3-image-rotation/solution/cmake-build-debug/CMakeFiles/rebuild_cache.dir

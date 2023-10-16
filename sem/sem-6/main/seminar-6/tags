@@ -1,0 +1,160 @@
+$(TARGET	makefile	/^$(TARGET): ast.o main.o tokenizer.o$/
+%.o	makefile	/^%.o: %.c$/
+.PHONY	makefile	/^.PHONY: clean all run$/
+AST	ast.h	10
+AST_BINOP	ast.h	11
+AST_LIT	ast.h	11
+AST_UNOP	ast.h	11
+AST_type	ast.h	11
+BINOPS	ast.c	35
+BIN_DIV	ast.h	14
+BIN_MINUS	ast.h	14
+BIN_MUL	ast.h	14
+BIN_PLUS	ast.h	14
+BLK_CONT	README.org	87
+BLK_CONT	README.org	87
+BLK_CONT	heap-1.c	11
+BLK_FIRST	README.org	87
+BLK_FIRST	README.org	90
+BLK_FIRST	heap-1.c	11
+BLK_FREE	heap-1.c	11
+BLK_LAST	README.org	90
+BLK_LAST	heap-1.c	11
+BLK_ONE	heap-1.c	11
+BLOCK_CAPACITY	README.org	50
+BLOCK_CAPACITY	heap-1.c	9
+CC	makefile	/^CC         = gcc$/
+CFLAGS	makefile	/^CFLAGS     = -g -O2 -Wall -Werror -std=c17 -Wno-un/
+DECLARE_BINOP	ast.h	/^#define DECLARE_BINOP(fun, code)                  /
+DECLARE_BINOP	ast.h	/^DECLARE_BINOP(add, PLUS)$/
+DECLARE_BINOP	ast.h	43
+DECLARE_RING	main.c	/^DECLARE_RING(ast, struct AST)$/
+DECLARE_RING	ring.h	/^#define DECLARE_RING(name, type)                  /
+DECLARE_RING	tokenizer.h	/^DECLARE_RING(token, struct token)$/
+DECLARE_UNOP	ast.h	/^#define DECLARE_UNOP(fun, code)                   /
+DECLARE_UNOP	ast.h	50
+DEFINE_RING	ring.h	/^#define DEFINE_RING(name, type)                   /
+DEFINE_RING	tokenizer.c	/^DEFINE_RING(token, struct token)$/
+DEFINE_RING_PRINT	ring.h	/^#define DEFINE_RING_PRINT(name, printer)          /
+HEAP_BLOCKS	README.org	49
+HEAP_BLOCKS	heap-1.c	8
+I	ast.o	34
+I	parser	130
+I	tokenizer.o	5
+LD	makefile	/^LD         = gcc$/
+Mbad	bad.c	/^int main() {$/
+Mheap-0	heap-0.c	/^int main() {$/
+Mheap-1	heap-1.c	/^int main() {$/
+Mmain	main.c	/^int main()$/
+RETURN_ERROR	main.c	/^#define RETURN_ERROR(code, msg) return printf(msg)/
+SessionLoad	sem-6-session.vim	1
+TARGET	makefile	/^TARGET     = parser$/
+TOKENS_STR	tokenizer.c	24
+TOK_CLOSE	tokenizer.h	14
+TOK_DIV	tokenizer.h	14
+TOK_END	tokenizer.h	15
+TOK_ERROR	tokenizer.h	15
+TOK_LIT	tokenizer.h	14
+TOK_MINUS	tokenizer.h	13
+TOK_MUL	tokenizer.h	13
+TOK_NEG	tokenizer.h	15
+TOK_OPEN	tokenizer.h	14
+TOK_PLUS	tokenizer.h	13
+UNOPS	ast.c	37
+UN_NEG	ast.h	18
+W	tokenizer.o	11
+_LLP_AST_H	ast.h	5
+_LLP_RING_H	ring.h	5
+_LLP_TOKENIZER_H_	tokenizer.h	5
+_binop	ast.c	/^struct AST _binop(enum binop_type type, struct AST/
+_lit	ast.c	/^struct AST _lit(int64_t value) {$/
+_unop	ast.c	/^struct AST _unop(enum unop_type type, struct AST */
+all	makefile	/^all: $(TARGET)$/
+as_binop	ast.h	16
+as_literal	ast.h	23
+as_unop	ast.h	20
+ast_print	main.c	/^void ast_print(struct AST ast) { print_ast(stdout,/
+ast_printers	ast.c	60
+binop	ast.c	/^struct AST *binop(enum binop_type type, struct AST/
+binop	ast.h	13
+binop_type	ast.h	14
+block	heap-0.c	12
+block	heap-1.c	14
+block_allocate	heap-0.c	/^struct block_id block_allocate(struct heap* heap) /
+block_allocate	heap-1.c	/^struct block_id block_allocate(struct heap* heap, /
+block_capacity	heap-0.c	9
+block_debug_info	heap-0.c	/^void block_debug_info(struct block_id b, FILE* f) /
+block_debug_info	heap-1.c	/^void block_debug_info(struct block_id b, FILE* f) /
+block_foreach_printer	heap-0.c	/^void block_foreach_printer(struct heap* h, size_t /
+block_foreach_printer	heap-1.c	/^void block_foreach_printer(struct heap* h, size_t /
+block_free	heap-0.c	/^void block_free(struct block_id b) {$/
+block_free	heap-1.c	/^void block_free(struct block_id bid){$/
+block_id	heap-0.c	18
+block_id	heap-1.c	20
+block_id_get_status	heap-1.c	/^static inline enum block_status block_id_get_statu/
+block_id_invalid	heap-0.c	/^struct block_id block_id_invalid() { return (struc/
+block_id_invalid	heap-1.c	/^struct block_id block_id_invalid() {$/
+block_id_is_valid	heap-0.c	/^bool block_id_is_valid(struct block_id bid) {$/
+block_id_is_valid	heap-1.c	/^bool block_id_is_valid(struct block_id bid) {$/
+block_id_new	heap-0.c	/^struct block_id block_id_new(size_t value, struct /
+block_id_new	heap-1.c	/^struct block_id block_id_new(size_t value, struct /
+block_is_free	heap-0.c	/^bool block_is_free(struct block_id bid) {$/
+block_is_free	heap-1.c	/^bool block_is_free(struct block_id bid) {$/
+block_repr	heap-0.c	/^const char* block_repr(struct block_id b) {$/
+block_repr	heap-1.c	/^const char* block_repr(struct block_id b) {$/
+block_status	heap-1.c	11
+blocks	heap-0.c	14
+blocks	heap-1.c	16
+calc_ast	ast.c	/^int64_t calc_ast(struct AST *ast) {$/
+clean	makefile	/^clean: $/
+contents	heap-0.c	13
+contents	heap-1.c	15
+fdi	sem-6-session.vim	27
+global_heap	README.org	57
+global_heap	heap-0.c	16
+global_heap	heap-1.c	18
+heap	heap-0.c	11
+heap	heap-0.c	21
+heap	heap-1.c	13
+heap	heap-1.c	23
+heap_blocks	heap-0.c	8
+heap_debug_info	heap-0.c	/^void heap_debug_info(struct heap* h, FILE* f) {$/
+heap_debug_info	heap-1.c	/^void heap_debug_info(struct heap* h, FILE* f) {$/
+heap_free	heap-1.c	/^bool heap_free(struct heap* hp, size_t from, size_/
+is_binop	tokenizer.c	/^int is_binop(struct token token)$/
+is_occupied	heap-0.c	15
+left	ast.h	15
+lit	ast.c	/^struct AST *lit(int64_t value) {$/
+literal	ast.h	21
+newnode	ast.c	/^struct AST *newnode(struct AST ast) {$/
+next_token	tokenizer.c	/^struct token next_token(char **str)$/
+operand	ast.h	19
+p_print_ast	ast.c	/^void p_print_ast(FILE *f, struct AST *ast) {$/
+print_ast	ast.c	/^void print_ast(FILE *f, struct AST *ast) {$/
+print_binop	ast.c	/^static void print_binop(FILE *f, struct AST *ast) /
+print_lit	ast.c	/^static void print_lit(FILE *f, struct AST *ast) {$/
+print_unop	ast.c	/^static void print_unop(FILE *f, struct AST *ast) {/
+printer	ast.c	39
+right	ast.h	15
+run	makefile	/^run:$/
+s	main.o	6
+s	parser	16
+skip_separators	tokenizer.c	/^char *skip_separators(char *str)$/
+status	heap-1.c	17
+token	tokenizer.h	11
+token_print	main.c	/^void token_print(struct token token) { printf("%s(/
+token_type	tokenizer.h	12
+tokenize	tokenizer.c	/^struct ring_token *tokenize(char *str)$/
+type	ast.h	11
+type	ast.h	14
+type	ast.h	18
+type	tokenizer.h	15
+unop	ast.c	/^struct AST *unop(enum unop_type type, struct AST */
+unop	ast.h	17
+unop_type	ast.h	18
+valid	heap-0.c	20
+valid	heap-1.c	22
+value	ast.h	22
+value	heap-0.c	19
+value	heap-1.c	21
+value	tokenizer.h	16

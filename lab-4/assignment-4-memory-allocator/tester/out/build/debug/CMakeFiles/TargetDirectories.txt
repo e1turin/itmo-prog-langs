@@ -1,0 +1,14 @@
+/tmp/tester/out/build/debug/CMakeFiles/test_stubs.dir
+/tmp/tester/out/build/debug/CMakeFiles/test__free.dir
+/tmp/tester/out/build/debug/CMakeFiles/test_alloc_region.dir
+/tmp/tester/out/build/debug/CMakeFiles/test_custom_tests.dir
+/tmp/tester/out/build/debug/CMakeFiles/test_find_good_or_last.dir
+/tmp/tester/out/build/debug/CMakeFiles/test_grow_heap.dir
+/tmp/tester/out/build/debug/CMakeFiles/test_heap_init.dir
+/tmp/tester/out/build/debug/CMakeFiles/test_memalloc.dir
+/tmp/tester/out/build/debug/CMakeFiles/test_split_if_too_big.dir
+/tmp/tester/out/build/debug/CMakeFiles/test_try_memalloc_existing.dir
+/tmp/tester/out/build/debug/CMakeFiles/test_try_merge_with_next.dir
+/tmp/tester/out/build/debug/CMakeFiles/check.dir
+/tmp/tester/out/build/debug/CMakeFiles/edit_cache.dir
+/tmp/tester/out/build/debug/CMakeFiles/rebuild_cache.dir

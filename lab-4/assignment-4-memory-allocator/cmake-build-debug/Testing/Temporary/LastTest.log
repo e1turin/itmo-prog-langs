@@ -1,0 +1,409 @@
+Start testing: Jan 20 01:22 UTC
+----------------------------------------------------------
+1/10 Testing: test__free
+1/10 Test: test__free
+Command: "/tmp/assignment-4-memory-allocator/cmake-build-debug/tester/test__free"
+Directory: /tmp/assignment-4-memory-allocator/cmake-build-debug/tester
+"test__free" start time: Jan 20 01:22 UTC
+Output:
+----------------------------------------------------------
+ Run test "null"...
+ Run test group "next":
+  1. Run test "next_is_null"...
+  2. Run test "next_is_not_continuous"...
+  3. Run test "next_block_is_dirty"...
+ Run test "merge"...
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test__free" end time: Jan 20 01:22 UTC
+"test__free" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/10 Testing: test_alloc_region
+2/10 Test: test_alloc_region
+Command: "/tmp/assignment-4-memory-allocator/cmake-build-debug/tester/test_alloc_region"
+Directory: /tmp/assignment-4-memory-allocator/cmake-build-debug/tester
+"test_alloc_region" start time: Jan 20 01:22 UTC
+Output:
+----------------------------------------------------------
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x7fea30231000
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 12288, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+ Run test "optimistic_case"...
+ Run test "map_fixed_failed"...
+ Run test "pessimistic_case"...
+ Run test group "query":
+  1. Run test "query_is_zero"...
+  2. Run test "query_is_small"...
+  3. Run test "query_is_min_region_size"...
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_alloc_region" end time: Jan 20 01:22 UTC
+"test_alloc_region" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/10 Testing: test_custom_tests
+3/10 Test: test_custom_tests
+Command: "/tmp/assignment-4-memory-allocator/cmake-build-debug/tester/test_custom_tests"
+Directory: /tmp/assignment-4-memory-allocator/cmake-build-debug/tester
+"test_custom_tests" start time: Jan 20 01:22 UTC
+Output:
+----------------------------------------------------------
+
+Running test: successful_basic_malloc
+mmap(addr = 0x4040000, length = 12288, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+ --- Heap ---
+     start   capacity   status   contents
+ 0x4040000      12271     free   519C66FC
+ --- Heap ---
+     start   capacity   status   contents
+ 0x4040000       2000    taken   519C66FC
+ 0x40407e1      10254     free   539C66FC
+ --- Heap ---
+     start   capacity   status   contents
+ 0x4040000      12271     free   519C66FC
+
+Running test: free_single_block_from_many
+mmap(addr = 0x4040000, length = 12288, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+ --- Heap ---
+     start   capacity   status   contents
+ 0x4040000      12271     free   509C66FC
+ --- Heap ---
+     start   capacity   status   contents
+ 0x4040000       2000    taken   509C66FC
+ 0x40407e1       2000    taken   539C66FC
+ 0x4040fc2       2000    taken   539C66FC
+ 0x40417a3       6220     free   539C66FC
+ --- Heap ---
+     start   capacity   status   contents
+ 0x4040000       2000    taken   509C66FC
+ 0x40407e1       2000     free   539C66FC
+ 0x4040fc2       2000    taken   539C66FC
+ 0x40417a3       6220     free   539C66FC
+ --- Heap ---
+     start   capacity   status   contents
+ 0x4040000       2000    taken   509C66FC
+ 0x40407e1       2000     free   539C66FC
+ 0x4040fc2       8237     free   539C66FC
+
+Running test: free_two_blocks_from_many
+mmap(addr = 0x4040000, length = 12288, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+ --- Heap ---
+     start   capacity   status   contents
+ 0x4040000      12271     free   509C66FC
+ --- Heap ---
+     start   capacity   status   contents
+ 0x4040000       2000    taken   509C66FC
+ 0x40407e1       2000    taken   539C66FC
+ 0x4040fc2       2000    taken   539C66FC
+ 0x40417a3       2000    taken   539C66FC
+ 0x4041f84       4203     free   539C66FC
+ --- Heap ---
+     start   capacity   status   contents
+ 0x4040000       2000    taken   509C66FC
+ 0x40407e1       4017     free   539C66FC
+ 0x40417a3       2000    taken   539C66FC
+ 0x4041f84       4203     free   539C66FC
+2nd block and 3rd block are freed
+ --- Heap ---
+     start   capacity   status   contents
+ 0x4040000       2000    taken   509C66FC
+ 0x40407e1       4017     free   539C66FC
+ 0x40417a3       2000    taken   539C66FC
+ 0x4041f84       4203     free   539C66FC
+
+Running test: memory_ran_out_and_new_region_extends_previous
+mmap(addr = 0x4040000, length = 12288, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+ --- Heap ---
+     start   capacity   status   contents
+ 0x4040000      12271     free   509C66FC
+
+10250
+ --- Heap ---
+     start   capacity   status   contents
+ 0x4040000      10250    taken   509C66FC
+ 0x404281b       2004    taken   539C66FC
+ --- Heap ---
+     start   capacity   status   contents
+ 0x4040000      10250    taken   509C66FC
+ 0x404281b       2004    taken   539C66FC
+
+Running test: memory_ran_out_and_old_region_is_not_extendable
+mmap(addr = 0x4040000, length = 12288, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+ --- Heap ---
+     start   capacity   status   contents
+ 0x4040000      12271     free   509C66FC
+ --- Heap ---
+     start   capacity   status   contents
+ 0x4040000       4096    taken   509C66FC
+ 0x4041011       8158     free   539C66FC
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x7fda5499c000
+ --- Heap ---
+     start   capacity   status   contents
+ 0x4040000       4096    taken   509C66FC
+ 0x4041011       6000    taken   539C66FC
+ 0x4042792       2141     free   509C66FC
+ Run test "successful_basic_malloc"...
+ Run test group "free":
+  1. Run test "free_single_block_from_many"...
+  2. Run test "free_two_blocks_from_many"...
+ Run test group "region":
+  1. Run test "memory_ran_out_and_new_region_extends_previous"...
+  2. Run test "memory_ran_out_and_old_region_is_not_extendable"...
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_custom_tests" end time: Jan 20 01:22 UTC
+"test_custom_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/10 Testing: test_find_good_or_last
+4/10 Test: test_find_good_or_last
+Command: "/tmp/assignment-4-memory-allocator/cmake-build-debug/tester/test_find_good_or_last"
+Directory: /tmp/assignment-4-memory-allocator/cmake-build-debug/tester
+"test_find_good_or_last" start time: Jan 20 01:22 UTC
+Output:
+----------------------------------------------------------
+ Run test group "single_block":
+  1. Run test "single_block_is_good"...
+  2. Run test "single_block_is_dirty"...
+  3. Run test "single_block_is_small"...
+ Run test group "multiple_blocks":
+  1. Run test "multiple_blocks_fail"...
+  2. Run test "multiple_blocks_success"...
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_find_good_or_last" end time: Jan 20 01:22 UTC
+"test_find_good_or_last" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/10 Testing: test_grow_heap
+5/10 Test: test_grow_heap
+Command: "/tmp/assignment-4-memory-allocator/cmake-build-debug/tester/test_grow_heap"
+Directory: /tmp/assignment-4-memory-allocator/cmake-build-debug/tester
+"test_grow_heap" start time: Jan 20 01:22 UTC
+Output:
+----------------------------------------------------------
+mmap(addr = 0x5562485d3490, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x5562485d3490, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x5562485d3290, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x5562485d3290, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x5562485d3490
+mmap(addr = 0x5562485d3490, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x5562485d3490
+mmap(addr = 0x5562485d3490, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x5562485d3490
+ Run test "mmap_failed"...
+ Run test "mmap_fixed_failed"...
+ Run test group "mmap_success":
+  1. Run test "mmap_success_last_dirty"...
+  2. Run test "mmap_success_last_free"...
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_grow_heap" end time: Jan 20 01:22 UTC
+"test_grow_heap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/10 Testing: test_heap_init
+6/10 Test: test_heap_init
+Command: "/tmp/assignment-4-memory-allocator/cmake-build-debug/tester/test_heap_init"
+Directory: /tmp/assignment-4-memory-allocator/cmake-build-debug/tester
+"test_heap_init" start time: Jan 20 01:22 UTC
+Output:
+----------------------------------------------------------
+heap_init(0)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+heap_init(10)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+heap_init(24)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+heap_init(41)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+heap_init(8175)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+heap_init(8192)
+mmap(addr = 0x4040000, length = 12288, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 12288, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+heap_init(0)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+heap_init(10)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+heap_init(24)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+heap_init(41)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+heap_init(8175)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+heap_init(8192)
+mmap(addr = 0x4040000, length = 12288, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+ Run test "fail"...
+ Run test "success"...
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_heap_init" end time: Jan 20 01:22 UTC
+"test_heap_init" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/10 Testing: test_memalloc
+7/10 Test: test_memalloc
+Command: "/tmp/assignment-4-memory-allocator/cmake-build-debug/tester/test_memalloc"
+Directory: /tmp/assignment-4-memory-allocator/cmake-build-debug/tester
+"test_memalloc" start time: Jan 20 01:22 UTC
+Output:
+----------------------------------------------------------
+mmap(addr = 0x55b3bcf6f490, length = 12288, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x55b3bcf6f490, length = 12288, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x55b3bcf6f490, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x55b3bcf6f490, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x55b3bcf6f490, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x55b3bcf6f490, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x55b3bcf6f4a0
+mmap(addr = 0x55b3bcf6f490, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x55b3bcf6f490, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x55b3bcf6f4a0
+ Run test group "memalloc_existing":
+  1. Run test "memalloc_existing_big_query"...
+  2. Run test "memalloc_existing_small_query"...
+ Run test group "grow_heap_fail":
+  1. Run test "grow_heap_fail_big_query"...
+  2. Run test "grow_heap_fail_small_query"...
+ Run test group "grow_heap_success":
+  1. Run test "grow_heap_success_big_query"...
+  2. Run test "grow_heap_success_small_query"...
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_memalloc" end time: Jan 20 01:22 UTC
+"test_memalloc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/10 Testing: test_split_if_too_big
+8/10 Test: test_split_if_too_big
+Command: "/tmp/assignment-4-memory-allocator/cmake-build-debug/tester/test_split_if_too_big"
+Directory: /tmp/assignment-4-memory-allocator/cmake-build-debug/tester
+"test_split_if_too_big" start time: Jan 20 01:22 UTC
+Output:
+----------------------------------------------------------
+ Run test group "not_splittable":
+  1. Run test "not_free"...
+  2. Run test "not_big_enough"...
+  3. Run test "not_big_enough_for_min_capacity"...
+ Run test "success"...
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_split_if_too_big" end time: Jan 20 01:22 UTC
+"test_split_if_too_big" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/10 Testing: test_try_memalloc_existing
+9/10 Test: test_try_memalloc_existing
+Command: "/tmp/assignment-4-memory-allocator/cmake-build-debug/tester/test_try_memalloc_existing"
+Directory: /tmp/assignment-4-memory-allocator/cmake-build-debug/tester
+"test_try_memalloc_existing" start time: Jan 20 01:22 UTC
+Output:
+----------------------------------------------------------
+ Run test "fail"...
+ Run test "split"...
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_try_memalloc_existing" end time: Jan 20 01:22 UTC
+"test_try_memalloc_existing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/10 Testing: test_try_merge_with_next
+10/10 Test: test_try_merge_with_next
+Command: "/tmp/assignment-4-memory-allocator/cmake-build-debug/tester/test_try_merge_with_next"
+Directory: /tmp/assignment-4-memory-allocator/cmake-build-debug/tester
+"test_try_merge_with_next" start time: Jan 20 01:22 UTC
+Output:
+----------------------------------------------------------
+ Run test group "next":
+  1. Run test "next_is_null"...
+  2. Run test "next_is_not_continuous"...
+ Run test group "dirtiness":
+  1. Run test "block_is_dirty"...
+  2. Run test "next_block_is_dirty"...
+  3. Run test "both_blocks_are_dirty"...
+ Run test "success"...
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_try_merge_with_next" end time: Jan 20 01:22 UTC
+"test_try_merge_with_next" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 20 01:22 UTC

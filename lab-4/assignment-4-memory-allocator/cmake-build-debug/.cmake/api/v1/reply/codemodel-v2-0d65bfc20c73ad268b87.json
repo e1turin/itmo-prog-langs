@@ -1,0 +1,200 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "tester",
+					"jsonFile" : "directory-tester-Debug-e9d49f88a042e74df727.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tester",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "memory-allocator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "check::@2d3ea729871aefd03561",
+					"jsonFile" : "target-check-Debug-4cc66efa085e881d5012.json",
+					"name" : "check",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "memalloc::@145eef247bfb46b6828c",
+					"jsonFile" : "target-memalloc-Debug-999a9a65177bff3f8c92.json",
+					"name" : "memalloc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test__free::@2d3ea729871aefd03561",
+					"jsonFile" : "target-test__free-Debug-75d7a01702510a144b45.json",
+					"name" : "test__free",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_alloc_region::@2d3ea729871aefd03561",
+					"jsonFile" : "target-test_alloc_region-Debug-74a9578962cb8c616e90.json",
+					"name" : "test_alloc_region",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_custom_tests::@2d3ea729871aefd03561",
+					"jsonFile" : "target-test_custom_tests-Debug-34ca17ef8a29c7500105.json",
+					"name" : "test_custom_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_find_good_or_last::@2d3ea729871aefd03561",
+					"jsonFile" : "target-test_find_good_or_last-Debug-956eb9fba4efb972a4de.json",
+					"name" : "test_find_good_or_last",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_grow_heap::@2d3ea729871aefd03561",
+					"jsonFile" : "target-test_grow_heap-Debug-7c4cef2ed262115c7ec6.json",
+					"name" : "test_grow_heap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_heap_init::@2d3ea729871aefd03561",
+					"jsonFile" : "target-test_heap_init-Debug-9ddf18d245b8c58a268a.json",
+					"name" : "test_heap_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_memalloc::@2d3ea729871aefd03561",
+					"jsonFile" : "target-test_memalloc-Debug-394990c90a8b6082ae78.json",
+					"name" : "test_memalloc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_split_if_too_big::@2d3ea729871aefd03561",
+					"jsonFile" : "target-test_split_if_too_big-Debug-0e59061e478c3ccede0e.json",
+					"name" : "test_split_if_too_big",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_stubs::@2d3ea729871aefd03561",
+					"jsonFile" : "target-test_stubs-Debug-a5d4d622511ffe358aef.json",
+					"name" : "test_stubs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_try_memalloc_existing::@2d3ea729871aefd03561",
+					"jsonFile" : "target-test_try_memalloc_existing-Debug-342a5073bfb5b89634be.json",
+					"name" : "test_try_memalloc_existing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_try_merge_with_next::@2d3ea729871aefd03561",
+					"jsonFile" : "target-test_try_merge_with_next-Debug-798b3c23f4d7c5a80729.json",
+					"name" : "test_try_merge_with_next",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/tmp/assignment-4-memory-allocator/cmake-build-debug",
+		"source" : "/tmp/assignment-4-memory-allocator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

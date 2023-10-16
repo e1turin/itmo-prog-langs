@@ -1,0 +1,155 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-ASan-f5ebdc15457944623624.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "ASan",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "check::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check-ASan-fd059ad9c4b05f4718bb.json",
+					"name" : "check",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test__free::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test__free-ASan-283ed5721eb0885c956e.json",
+					"name" : "test__free",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_alloc_region::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_alloc_region-ASan-87e2cf4984b2e68d3169.json",
+					"name" : "test_alloc_region",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_custom_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_custom_tests-ASan-febd353ac82c00db694a.json",
+					"name" : "test_custom_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_find_good_or_last::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_find_good_or_last-ASan-68e7f751c93073d0bdbb.json",
+					"name" : "test_find_good_or_last",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_grow_heap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_grow_heap-ASan-9a1ae237a2fa614207da.json",
+					"name" : "test_grow_heap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_heap_init::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_heap_init-ASan-5f4f02feccf573c32ff4.json",
+					"name" : "test_heap_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_memalloc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_memalloc-ASan-d7405d1b5743f9b82fe6.json",
+					"name" : "test_memalloc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_split_if_too_big::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_split_if_too_big-ASan-2c875a8f722fd08f6c1e.json",
+					"name" : "test_split_if_too_big",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_stubs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_stubs-ASan-bcba421fded215fa289e.json",
+					"name" : "test_stubs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_try_memalloc_existing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_try_memalloc_existing-ASan-8bb010ac793edd0afdb3.json",
+					"name" : "test_try_memalloc_existing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_try_merge_with_next::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_try_merge_with_next-ASan-16f13ac2d11b38748f80.json",
+					"name" : "test_try_merge_with_next",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/tmp/tester/out/build/asan",
+		"source" : "/tmp/tester"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

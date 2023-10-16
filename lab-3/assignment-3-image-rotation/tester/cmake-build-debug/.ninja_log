@@ -1,0 +1,8 @@
+# ninja log v5
+0	25	0	D:/Projects/itmo-prog-langs/lab-3/assignment-3-image-rotation/tester/cmake-build-debug/CMakeFiles/cmake.verify_globs	552e641e6d572d2c
+521	790	6904263581603689	image-matcher.exe	91f2741dc387c31a
+72	466	6904263578153851	CMakeFiles/image-matcher.dir/src/util.obj	89fe4dbee8509994
+39	508	6904263578333725	CMakeFiles/image-matcher.dir/src/main.obj	d98db6f44373f610
+9	509	6904263578263774	CMakeFiles/image-matcher.dir/src/file_cmp.obj	58d2dfd264f942e4
+1	521	6904263578873840	CMakeFiles/image-matcher.dir/src/bmp.obj	3bc8b7238bc4b0fd
+0	26	0	D:/Projects/itmo-prog-langs/lab-3/assignment-3-image-rotation/tester/cmake-build-debug/CMakeFiles/cmake.verify_globs	552e641e6d572d2c

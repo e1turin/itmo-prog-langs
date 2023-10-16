@@ -1,0 +1,12 @@
+/tmp/assignment-3-image-rotation/cmake-build-debug/CMakeFiles/test.dir
+/tmp/assignment-3-image-rotation/cmake-build-debug/CMakeFiles/edit_cache.dir
+/tmp/assignment-3-image-rotation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/tmp/assignment-3-image-rotation/cmake-build-debug/solution/CMakeFiles/image-transformer.dir
+/tmp/assignment-3-image-rotation/cmake-build-debug/solution/CMakeFiles/test.dir
+/tmp/assignment-3-image-rotation/cmake-build-debug/solution/CMakeFiles/edit_cache.dir
+/tmp/assignment-3-image-rotation/cmake-build-debug/solution/CMakeFiles/rebuild_cache.dir
+/tmp/assignment-3-image-rotation/cmake-build-debug/tester/CMakeFiles/image-matcher.dir
+/tmp/assignment-3-image-rotation/cmake-build-debug/tester/CMakeFiles/check.dir
+/tmp/assignment-3-image-rotation/cmake-build-debug/tester/CMakeFiles/test.dir
+/tmp/assignment-3-image-rotation/cmake-build-debug/tester/CMakeFiles/edit_cache.dir
+/tmp/assignment-3-image-rotation/cmake-build-debug/tester/CMakeFiles/rebuild_cache.dir

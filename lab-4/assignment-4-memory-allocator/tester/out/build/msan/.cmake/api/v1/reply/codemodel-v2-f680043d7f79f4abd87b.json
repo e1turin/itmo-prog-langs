@@ -1,0 +1,155 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-MSan-f5ebdc15457944623624.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "MSan",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "check::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check-MSan-d29f96ebc117a42661eb.json",
+					"name" : "check",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test__free::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test__free-MSan-feb4cf2bd20d3b558441.json",
+					"name" : "test__free",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_alloc_region::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_alloc_region-MSan-e111ff5ebbfbc8404903.json",
+					"name" : "test_alloc_region",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_custom_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_custom_tests-MSan-a548fa62ab689adbe25f.json",
+					"name" : "test_custom_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_find_good_or_last::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_find_good_or_last-MSan-885a30054959efa0271d.json",
+					"name" : "test_find_good_or_last",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_grow_heap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_grow_heap-MSan-0440440ca9d38a682de2.json",
+					"name" : "test_grow_heap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_heap_init::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_heap_init-MSan-2835029c7ff163958521.json",
+					"name" : "test_heap_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_memalloc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_memalloc-MSan-9f2a2d7f37d1f3d21eee.json",
+					"name" : "test_memalloc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_split_if_too_big::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_split_if_too_big-MSan-da780f4b7a2b41ed2f26.json",
+					"name" : "test_split_if_too_big",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_stubs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_stubs-MSan-bcba421fded215fa289e.json",
+					"name" : "test_stubs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_try_memalloc_existing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_try_memalloc_existing-MSan-9cc879d0b7b0c5c8f7f1.json",
+					"name" : "test_try_memalloc_existing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_try_merge_with_next::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_try_merge_with_next-MSan-92d07b733fac65f0d30d.json",
+					"name" : "test_try_merge_with_next",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/tmp/tester/out/build/msan",
+		"source" : "/tmp/tester"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,16 @@
+# ninja log v5
+1	25	0	D:/Projects/itmo-prog-langs/lab-3/assignment-3-image-rotation/solution/cmake-build-debug/CMakeFiles/cmake.verify_globs	6002c0cdfebacc55
+0	139	6904256642895410	CMakeFiles/image-transformer.dir/src/bmp_utils.obj	44f0b53b93765642
+13	159	6904256643055493	CMakeFiles/image-transformer.dir/src/image.obj	fec26790db828d66
+6	146	6904256642945448	CMakeFiles/image-transformer.dir/src/main.obj	caedc0e42f9cd881
+3	153	6904256642985425	CMakeFiles/image-transformer.dir/src/bmp.obj	488259f3e3859b11
+10	159	6904256643135492	CMakeFiles/image-transformer.dir/src/file_utils.obj	85102258413670db
+19	160	6904256643095585	CMakeFiles/image-transformer.dir/src/transformations.obj	c00111ee60766a6b
+140	212	6904256643695374	CMakeFiles/image-transformer.dir/src/util.obj	949937c75cd7d48e
+212	299	6904256644535432	image-transformer.exe	1e6800dd75957237
+0	25	0	D:/Projects/itmo-prog-langs/lab-3/assignment-3-image-rotation/solution/cmake-build-debug/CMakeFiles/cmake.verify_globs	6002c0cdfebacc55
+10	99	6904265035061488	CMakeFiles/image-transformer.dir/src/main.obj	caedc0e42f9cd881
+3	105	6904265035111546	CMakeFiles/image-transformer.dir/src/bmp_utils.obj	44f0b53b93765642
+14	107	6904265035141496	CMakeFiles/image-transformer.dir/src/util.obj	949937c75cd7d48e
+7	112	6904265035201567	CMakeFiles/image-transformer.dir/src/bmp.obj	488259f3e3859b11
+112	206	6904265036101399	image-transformer.exe	1e6800dd75957237

@@ -1,0 +1,4 @@
+D:/Projects/itmo-prog-langs/lab-3/assignment-3-image-rotation/tester/cmake-build-debug/CMakeFiles/image-matcher.dir
+D:/Projects/itmo-prog-langs/lab-3/assignment-3-image-rotation/tester/cmake-build-debug/CMakeFiles/check.dir
+D:/Projects/itmo-prog-langs/lab-3/assignment-3-image-rotation/tester/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Projects/itmo-prog-langs/lab-3/assignment-3-image-rotation/tester/cmake-build-debug/CMakeFiles/rebuild_cache.dir

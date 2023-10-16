@@ -1,0 +1,257 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=LSan -DCMAKE_MAKE_PROGRAM=/usr/bin/ninja -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G Ninja -DCMAKE_BUILD_TYPE=LSan -S /tmp/tester -B /tmp/tester/out/build/lsan
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:16 (list):
+  Policy CMP0007 is not set: list command no longer ignores empty elements.
+  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.  List has value =
+  [;tmp;tester;tests;_free.c].
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:17 (string):
+  Syntax error in cmake code at
+
+    /tmp/tester/CMakeLists.txt:17
+
+  when parsing string
+
+    \.c$
+
+  Invalid escape sequence \.
+
+  Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+  "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:16 (list):
+  Policy CMP0007 is not set: list command no longer ignores empty elements.
+  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.  List has value =
+  [;tmp;tester;tests;alloc_region.c].
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:17 (string):
+  Syntax error in cmake code at
+
+    /tmp/tester/CMakeLists.txt:17
+
+  when parsing string
+
+    \.c$
+
+  Invalid escape sequence \.
+
+  Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+  "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:16 (list):
+  Policy CMP0007 is not set: list command no longer ignores empty elements.
+  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.  List has value =
+  [;tmp;tester;tests;custom_tests.c].
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:17 (string):
+  Syntax error in cmake code at
+
+    /tmp/tester/CMakeLists.txt:17
+
+  when parsing string
+
+    \.c$
+
+  Invalid escape sequence \.
+
+  Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+  "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:16 (list):
+  Policy CMP0007 is not set: list command no longer ignores empty elements.
+  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.  List has value =
+  [;tmp;tester;tests;find_good_or_last.c].
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:17 (string):
+  Syntax error in cmake code at
+
+    /tmp/tester/CMakeLists.txt:17
+
+  when parsing string
+
+    \.c$
+
+  Invalid escape sequence \.
+
+  Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+  "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:16 (list):
+  Policy CMP0007 is not set: list command no longer ignores empty elements.
+  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.  List has value =
+  [;tmp;tester;tests;grow_heap.c].
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:17 (string):
+  Syntax error in cmake code at
+
+    /tmp/tester/CMakeLists.txt:17
+
+  when parsing string
+
+    \.c$
+
+  Invalid escape sequence \.
+
+  Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+  "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:16 (list):
+  Policy CMP0007 is not set: list command no longer ignores empty elements.
+  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.  List has value =
+  [;tmp;tester;tests;heap_init.c].
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:17 (string):
+  Syntax error in cmake code at
+
+    /tmp/tester/CMakeLists.txt:17
+
+  when parsing string
+
+    \.c$
+
+  Invalid escape sequence \.
+
+  Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+  "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:16 (list):
+  Policy CMP0007 is not set: list command no longer ignores empty elements.
+  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.  List has value =
+  [;tmp;tester;tests;memalloc.c].
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:17 (string):
+  Syntax error in cmake code at
+
+    /tmp/tester/CMakeLists.txt:17
+
+  when parsing string
+
+    \.c$
+
+  Invalid escape sequence \.
+
+  Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+  "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:16 (list):
+  Policy CMP0007 is not set: list command no longer ignores empty elements.
+  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.  List has value =
+  [;tmp;tester;tests;split_if_too_big.c].
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:17 (string):
+  Syntax error in cmake code at
+
+    /tmp/tester/CMakeLists.txt:17
+
+  when parsing string
+
+    \.c$
+
+  Invalid escape sequence \.
+
+  Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+  "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:16 (list):
+  Policy CMP0007 is not set: list command no longer ignores empty elements.
+  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.  List has value =
+  [;tmp;tester;tests;try_memalloc_existing.c].
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:17 (string):
+  Syntax error in cmake code at
+
+    /tmp/tester/CMakeLists.txt:17
+
+  when parsing string
+
+    \.c$
+
+  Invalid escape sequence \.
+
+  Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+  "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:16 (list):
+  Policy CMP0007 is not set: list command no longer ignores empty elements.
+  Run "cmake --help-policy CMP0007" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.  List has value =
+  [;tmp;tester;tests;try_merge_with_next.c].
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:17 (string):
+  Syntax error in cmake code at
+
+    /tmp/tester/CMakeLists.txt:17
+
+  when parsing string
+
+    \.c$
+
+  Invalid escape sequence \.
+
+  Policy CMP0010 is not set: Bad variable reference syntax is an error.  Run
+  "cmake --help-policy CMP0010" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.22)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/tester/out/build/lsan

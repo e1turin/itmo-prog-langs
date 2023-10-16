@@ -1,0 +1,11 @@
+test__free 3 0.0018488
+test_alloc_region 3 0.00184286
+test_custom_tests 3 0.00211057
+test_find_good_or_last 3 0.00194549
+test_grow_heap 3 0.00202164
+test_heap_init 3 0.00164939
+test_memalloc 3 0.00187282
+test_split_if_too_big 3 0.00144305
+test_try_memalloc_existing 3 0.00148498
+test_try_merge_with_next 3 0.00147239
+---

@@ -1,0 +1,5 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/ninja -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G Ninja -S /tmp/assignment-3-image-rotation -B /tmp/assignment-3-image-rotation/cmake-build-debug
+-- Clang-tidy: CLANG_TIDY-NOTFOUND
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/assignment-3-image-rotation/cmake-build-debug

@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_stubs">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/CMakeFiles/test_stubs.dir/test_stubs.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_stubs"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_stubs/fast">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/CMakeFiles/test_stubs.dir/test_stubs.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_stubs/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test__free">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test__free" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test__free"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test__free/fast">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test__free" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test__free/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_alloc_region">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test_alloc_region" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_alloc_region"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_alloc_region/fast">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test_alloc_region" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_alloc_region/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_find_good_or_last">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test_find_good_or_last" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_find_good_or_last"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_find_good_or_last/fast">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test_find_good_or_last" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_find_good_or_last/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_grow_heap">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test_grow_heap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_grow_heap"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_grow_heap/fast">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test_grow_heap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_grow_heap/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_heap_init">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test_heap_init" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_heap_init"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_heap_init/fast">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test_heap_init" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_heap_init/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_memalloc">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test_memalloc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_memalloc"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_memalloc/fast">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test_memalloc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_memalloc/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_split_if_too_big">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test_split_if_too_big" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_split_if_too_big"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_split_if_too_big/fast">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test_split_if_too_big" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_split_if_too_big/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_try_memalloc_existing">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test_try_memalloc_existing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_try_memalloc_existing"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_try_memalloc_existing/fast">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test_try_memalloc_existing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_try_memalloc_existing/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_try_merge_with_next">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test_try_merge_with_next" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_try_merge_with_next"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_try_merge_with_next/fast">
+				<Option output="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/test_try_merge_with_next" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 test_try_merge_with_next/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check">
+				<Option working_dir="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 check"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/out/build/debug/CMakeFiles/test_stubs.dir/src/test_utils.o">
+			<Option target="test__free"/>
+			<Option target="test_alloc_region"/>
+			<Option target="test_find_good_or_last"/>
+			<Option target="test_grow_heap"/>
+			<Option target="test_heap_init"/>
+			<Option target="test_memalloc"/>
+			<Option target="test_split_if_too_big"/>
+			<Option target="test_try_memalloc_existing"/>
+			<Option target="test_try_merge_with_next"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src/test.h">
+			<Option target="test_stubs"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src/test_utils.c">
+			<Option target="test_stubs"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/src/test_utils.h">
+			<Option target="test_stubs"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/tests/_free.c">
+			<Option target="test__free"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/tests/alloc_region.c">
+			<Option target="test_alloc_region"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/tests/find_good_or_last.c">
+			<Option target="test_find_good_or_last"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/tests/grow_heap.c">
+			<Option target="test_grow_heap"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/tests/heap_init.c">
+			<Option target="test_heap_init"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/tests/memalloc.c">
+			<Option target="test_memalloc"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/tests/split_if_too_big.c">
+			<Option target="test_split_if_too_big"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/tests/try_memalloc_existing.c">
+			<Option target="test_try_memalloc_existing"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/tests/try_merge_with_next.c">
+			<Option target="test_try_merge_with_next"/>
+		</Unit>
+		<Unit filename="/mnt/d/Projects/itmo-prog-langs/lab-4/assignment-4-memory-allocator/tester/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

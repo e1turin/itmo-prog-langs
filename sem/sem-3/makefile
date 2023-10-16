@@ -1,0 +1,21 @@
+
+task-5: task-5.o task-5-print_hex.o task-5-exit.o
+	ld -o $@ $^ #kek
+	$(MAKE) clear
+
+#task-5-print_hex.o: task-5-print_hex.asm
+	#nasm -g -f elf64 $< -o $@
+#
+#task-5-exit.o: task-5-exit.asm
+	#nasm -g -f elf64 $< -o $@
+
+#task-5.o: task-5.asm 
+	#nasm -g -f elf64 $< -o $@
+
+%.o: %.asm
+	nasm -g -f elf64 $< -o $@
+
+.PHONY: clean
+clear:
+	rm *.o
+

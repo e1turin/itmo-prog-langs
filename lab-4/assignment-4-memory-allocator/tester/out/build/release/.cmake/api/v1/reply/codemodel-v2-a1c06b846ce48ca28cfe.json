@@ -1,0 +1,155 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "check::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-check-Release-861b6072fa95c8b13e5d.json",
+					"name" : "check",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test__free::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test__free-Release-4fd89e87298a3fa5d283.json",
+					"name" : "test__free",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_alloc_region::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_alloc_region-Release-4ce078ac58b376a8a82c.json",
+					"name" : "test_alloc_region",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_custom_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_custom_tests-Release-c35e638d7c16595890fc.json",
+					"name" : "test_custom_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_find_good_or_last::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_find_good_or_last-Release-6f2edea6925a6e7902bc.json",
+					"name" : "test_find_good_or_last",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_grow_heap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_grow_heap-Release-9e9a5efd9488dd18fc20.json",
+					"name" : "test_grow_heap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_heap_init::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_heap_init-Release-0e229ed2a136db6d1d71.json",
+					"name" : "test_heap_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_memalloc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_memalloc-Release-59b22fb5fbb9754141c7.json",
+					"name" : "test_memalloc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_split_if_too_big::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_split_if_too_big-Release-bc346511ba7214de582e.json",
+					"name" : "test_split_if_too_big",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_stubs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_stubs-Release-88b1ab383efbc2c55922.json",
+					"name" : "test_stubs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_try_memalloc_existing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_try_memalloc_existing-Release-8102c9b246b9357262d6.json",
+					"name" : "test_try_memalloc_existing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_try_merge_with_next::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_try_merge_with_next-Release-64b15b06685ef7511184.json",
+					"name" : "test_try_merge_with_next",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/tmp/tester/out/build/release",
+		"source" : "/tmp/tester"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
